@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ampg Durst 2026</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="nav-cont">
+      <a class="nav-link" href="orders.html">Ամիսներ</a>
+    </div>
+  </nav>
+
+  <div class="colors">
+    <span class="drop white" style="background-color: white;" title="white"></span>
+    <span class="drop green" style="background-color: green;" title="green"></span>
+    <span class="drop violet" style="background-color: violet;" title="violet"></span>
+    <span class="drop orange" style="background-color: orange;" title="orange"></span>
+    <span class="drop cyan" style="background-color: cyan;" title="cyan"></span>
+    <span class="drop magenta" style="background-color: magenta;" title="magenta"></span>
+    <span class="drop yellow" style="background-color: yellow;" title="yellow"></span>
+    <span class="drop black" style="background-color: black;" title="black"></span>
+  </div>
+
+
+
+  <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="width: 100%; height: 800px;">
+    <div class="my-3 py-3">
+      <section>
+        <div class="content">
+          <h2>Durst Jobs Gallery</h2>
+          <h2>Durst Jobs Gallery</h2>
+        </div>
+      </section>
+    </div>
+    <div class="pic"> <img src="pics/linia-produkcyjna-etykiet-cyfrowych.png"></div>
+  </div>
+
+  <footer>
+    <a href="https://ampg.am/" class="ampg">© 2026 AM-PG
+      group, Inc</a>
+  </footer>
+  <script>
+    const items = document.querySelectorAll('.drop');
+
+    items.forEach(item => {
+      item.addEventListener('mouseenter', function () {
+        document.body.style.backgroundColor = this.classList[1]; // Change body background to the class name (color)
+      });
+
+      item.addEventListener('mouseleave', function () {
+        document.body.style.backgroundColor = ''; // Reset to default background
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
